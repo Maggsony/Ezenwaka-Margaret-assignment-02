@@ -34,16 +34,16 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
 
-  let newArray = 0;
+  let count = 0;
   for(let i = 0; i < arrayOfNumbers.length; i++) {
     
     let even = arrayOfNumbers[i];
     if(even % 2 === 0){
-        newArray++;
+        count++;
       
     }
   }
-    return newArray;
+    return count;
 
 }
  assignment.countEvenNumbers = countEvenNumbers;
